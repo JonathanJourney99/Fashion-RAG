@@ -7,3 +7,4 @@ streamlit-lottie
 together
 langchain-community
 langchain-google-genai
+faiss-cpu
