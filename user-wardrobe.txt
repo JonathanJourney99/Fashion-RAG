@@ -1,0 +1,82 @@
+Clothing Catalog:
+Description: Pair of trousers
+Category: Bottoms
+Colors: Dark brown
+Style: Straight leg
+Gender Type: Male
+Suitable Weather: Cool
+Material: Unknown
+Occasion: Casual
+------------------------------
+Description: Long sleeve shirt
+Category: Tops
+Colors: Light gray, Burgundy, White, Black
+Style: Striped
+Gender Type: Male
+Suitable Weather: Cool
+Material: Unknown
+Occasion: Casual
+------------------------------
+Description: Polo shirt
+Category: Tops
+Colors: Dark blue, Light blue, White, Red
+Style: Striped, Slim Fit
+Gender Type: Male
+Suitable Weather: Warm
+Material: Unknown
+Occasion: Casual
+------------------------------
+Description: Short sleeve shirt
+Category: Tops
+Colors: Teal, White, Black
+Style: Striped
+Gender Type: Male
+Suitable Weather: Warm
+Material: Unknown
+Occasion: Casual
+------------------------------
+Description: Shirt
+Category: Tops
+Colors: Dark blue, Light blue
+Style: Solid
+Gender Type: Male
+Suitable Weather: Warm
+Material: Unknown
+Occasion: Casual
+------------------------------
+Description: Shirt
+Category: Tops
+Colors: White, Dark blue
+Style: Dotted
+Gender Type: Male
+Suitable Weather: Warm
+Material: Unknown
+Occasion: Casual
+------------------------------
+
+
+Outfit Combinations:
+Here are three outfit combinations from the provided catalog:
+
+**Outfit 1: Casual Cool Weather**
+
+* **Item 1:** Pair of Dark brown trousers (Bottoms)
+* **Item 2:** Long sleeve striped shirt (Tops), color: Light gray
+
+**Description:** A simple and comfortable outfit suitable for cooler weather. The dark brown trousers provide a neutral base, while the light gray striped shirt adds a touch of visual interest. This outfit is perfect for a casual day out.
+
+
+**Outfit 2: Casual Warm Weather**
+
+* **Item 1:**  Short sleeve striped shirt (Tops), color: Teal
+* **Item 2:** Pair of Dark brown trousers (Bottoms)
+
+**Description:** A relaxed warm weather outfit. The teal shirt provides a pop of color against the neutral dark brown trousers.  This combination is ideal for casual summer activities.
+
+
+**Outfit 3: Smart Casual Warm Weather**
+
+* **Item 1:** Dark blue Polo shirt (Tops), style: Slim Fit
+* **Item 2:** Pair of Dark brown trousers (Bottoms)
+
+**Description:** A slightly more polished casual look. The slim fit dark blue polo shirt offers a neat and stylish appearance, paired with the neutral dark brown trousers. This outfit is suitable for a casual meeting or a relaxed evening out in warm weather.
