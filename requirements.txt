@@ -5,3 +5,4 @@ langchain
 docx2txt
 streamlit-lottie
 together
+langchain-community
