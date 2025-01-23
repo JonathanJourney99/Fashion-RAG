@@ -170,7 +170,7 @@ def load_lottiefile(filepath: str):
 def main():
 
     load_dotenv()
-    st.set_page_config(page_title="Chat with multiple Documents", page_icon=":books:")
+    st.set_page_config(page_title="Fashion AI-Assistant", page_icon=":books:")
     cover_pic = load_lottiefile('img/fashion.json')
     st.lottie(cover_pic, speed=0.5, reverse=False, loop=True, quality='low', height=200, key='first_animate')
 
@@ -183,8 +183,8 @@ def main():
     if "vectorstore" not in st.session_state:
         st.session_state.vectorstore = None
 
-    st.header("Chat with multiple Documents 🔍")
-    user_question = st.text_input("Ask a question about your documents:")
+    st.header("Fashion AI-Assistant 👘")
+    user_question = st.text_input("Ask a question about your Waredrobe:")
     if user_question:
         if st.session_state.conversation is None and st.session_state.vectorstore is not None:
             st.session_state.conversation = get_conversation_chain(st.session_state.vectorstore)
@@ -192,9 +192,9 @@ def main():
             handle_userinput(user_question)
 
     with st.sidebar:
-        st.subheader("Your documents")
+        st.subheader("Your Waredrobe")
         pdf_docs = st.file_uploader(
-            "Upload your PDFs here and click on 'Process'", accept_multiple_files=True, type=['pdf', 'docx', 'txt', 'csv']
+            "Upload your Waredrobe here and click on 'Process'", accept_multiple_files=True, type=['pdf', 'docx', 'txt', 'csv']
         )
         if st.button("Process"):
             with st.spinner("Processing"):
