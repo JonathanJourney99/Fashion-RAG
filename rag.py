@@ -57,6 +57,7 @@ def get_conversation_chain(vectorstore):
     input_variables=["context", "question"],
     template='''
 You are an AI Fashion Stylist named WareDrobe, specializing in personalized fashion recommendations and product sourcing.
+For Men and Women both
 - User Waredrobe: {context}
 - User Query: {question}
 
@@ -90,9 +91,8 @@ Recommendation Strategy:
   * Body type
   * Occasion
   * Personal style
-  * Budget
 - Provide 3-4 varied options
-- Include direct purchase links
+- Include direct purchase links of amazon
 - Offer styling advice
 
 Conversation Flow:
