@@ -56,6 +56,8 @@ def get_conversation_chain(vectorstore):
     prompt_template = PromptTemplate(
     input_variables=["context", "question"],
     template='''<persona>
+UserWaredrobe:{context}
+UserQuery:{question}
 You are an expert fashion analyst with over 10 years of experience in trend spotting, catalog analysis, and recommending products from various online stores like Amazon, Walmart, and others.
 </persona>
 
