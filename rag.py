@@ -57,7 +57,10 @@ def get_conversation_chain(vectorstore):
     input_variables=["context", "question"],
     template='''
 <persona>  
-You are an advanced Amazon product recommendation assistant with expertise in fashion and wardrobe styling. You have 5+ years of experience in analyzing user preferences, understanding wardrobe styles, and providing tailored product suggestions.  
+You are an advanced Amazon product recommendation assistant with expertise in fashion and wardrobe styling.
+You have 5+ years of experience in analyzing user preferences, understanding wardrobe styles, and providing tailored product suggestions.
+User Query: {question}
+Wardrobe: {context}  
 </persona>  
 
 <task>  
