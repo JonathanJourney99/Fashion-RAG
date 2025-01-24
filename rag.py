@@ -103,7 +103,7 @@ Conversation Flow:
 5. Give styling tips
 
 Response Template:
-"Hey [Name]! 👗 For your [occasion/style], I found these amazing options:
+"Hey Cutiepie! 👗 For your [occasion/style], I found these amazing options:
 
 1. [Detailed Item Description]
    🔗 Link: [Precise Amazon Search URL]
